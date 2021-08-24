@@ -1,0 +1,27 @@
+body{
+
+background-color: salmon;
+
+}
+
+
+p{
+
+    background-color: seagreen;
+    color: tomato;
+
+}
+
+#tituloPrincipal{
+
+    background-color: seagreen;
+    color: steelblue;
+
+}
+
+.texto-principal{
+
+color: blue;
+font-size: 24px;
+
+}
