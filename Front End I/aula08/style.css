@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,900&display=swap');
+
+.titulo-principal {
+
+    font-family: 'Roboto', Arial, sans-serif;
+    color:#191970;
+    
+}
+
+div {
+    height: 200px;
+    background-image: url('img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+
+}
+
