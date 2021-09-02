@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+header {
+    background-color:green;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
+
+.imgHeader { 
+    width: 100px ;
+    height: 60px;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-position: cover;
+    top: 0;
+    background-size: auto;
+    background-position: center;
+    vertical-align: middle;
+    font-family: 'Roboto', Arial, sans-serif;
+    background-repeat: ;
+    height: 1380px;
+}
+
+.whats {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 10px;
+    right: 0;
+    z-index: 101;
+}
+
+.produtos{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top: 35px;
+}
+.produtos1{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 35px;
+    left: 100px;
+}
+
+.produtos2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 35px;
+    left: 550px;
+}
+
+.produtos3{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 35px;
+    left: 1000px;
+    background-color: white;
+}
+
+.box {
+    position: fixed;
+    width: 500px;
+    height: 25px;
+    right: 300px;
+    top: 20px;
+}
+
+.native {
+    width: auto;
+    height: 30px;
+    padding: 0;
+}
+
+.prodbuttongeral{
+    width: 200px;
+    height: 30px;
+    padding: 0;
+    cursor: pointer;
+    font-style: bold;
+    font-size: 14px;
+}
+
+.prodbutton1{
+    position: absolute;
+    top: 235px;
+    left: 100px;
+}
+
+.prodbutton2{
+    position: absolute;
+    top: 235px;
+    left: 550px;
+}
+
+.prodbutton3{
+    position: absolute;
+    top: 235px;
+    left: 1000px;
+}
+
+.native2{
+    position: fixed;
+    bottom: 10px;
+    left: 500px;
+    border-radius: 50px;
+    border: dashed;
+    background-color: greenyellow;
+    padding: 0;
+    margin: 0;
+    border-radius: 20px;
+    border: dashed;
+    cursor: pointer;
+    font-style: italic; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: black;
+}
