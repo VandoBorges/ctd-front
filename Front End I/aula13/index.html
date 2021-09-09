@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div>
+        <h1>Cadastro de Clientes - Pessoa Física</h1>
+        <img src="logo.jpg" alt="">
+    </div>
+    <form>
+
+        <div>
+            <label for="marca">Como conheceu nossa marca?</label>
+            <select name="city" id="city">
+                <option value=""></option>
+                <option value="facebook">Facebook</option>
+                <option value="instagram">Instagram</option>
+                <option value="linkedin">Linkedin</option>
+                <option value="outros">Outras Meios de Comunicação</option>
+
+            </select>        
+        </div>
+
+        <div>
+            <label for="name">Nome</label>
+            <input type="name" id="name" name="name" placeholder="Digite o seu nome">
+        </div>
+        
+        <div>
+            <label for="rg">RG</label>
+            <input type="" id="rg" name="rg">
+        </div>
+
+        <div>
+            <label for="socialNumber">CPF</label>
+            <input type="number" maxlength="11" id="socialNumber" name="socialNumber">
+        </div>
+
+        <div>
+            <label for="birthDate">Data de Nascimento</label>
+            <input type="date" id="birthDate" name="birthDate">
+        </div>
+
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="seuemail@hotmail.com">
+        </div> 
+
+        <div>
+            <label for="contato">Contato</label>
+            <input type="tel" id="contato" name="contato">
+        </div> 
+
+        <div>
+            <label for="city">Cidade</label>
+            
+            <select name="city" id="city">
+                <option value=""></option>
+                <option value="saoPaulo">São Paulo</option>
+                <option value="barrinha">Barrinha</option>
+                <option value="ribeiraoPreto">Ribeirão Preto</option>
+                <option value="outras">Outras</option>
+
+            </select>
+        </div>
+        
+        <div>
+            <label for="products">Quais produtos deseja comprar?</label>                
+            <select name="products" id="products">
+                <option value=""></option>
+                <option value="achocolatado">Achocolatado</option>
+                <option value="sucos">Sucos</option>
+                <option value="acucares">Açúcares</option>
+                <option value="outros">Outros</option>    
+            </select>         
+        </div>
+
+        <div>
+            <label for="outrosProdutos">Outros Produtos</label>
+            <input type="text" id="outrosProdutos" name="outrosProdutos">
+        </div>
+
+        <div>
+            <label for="promo">Deseja receber nossas promoções por e-mail?</label>                
+            <select name="promo" id="promo">
+                <option value=""></option>
+                <option value="sim">Sim</option>
+                <option value="nao">Não</option>
+            </select>         
+        </div>
+
+        <div>
+            <label for="comments">Sugestões</label>
+            <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Compartilhe sua sugestão conosco!"></textarea>
+
+        </div>
+
+        <!--
+
+        <div>
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password">
+        </div> 
+
+        <div>
+            <label for="passwordConfirm">Repita sua senha</label>
+            <input type="password" id="passwordConfirm" name="passwordConfirm">
+        </div>
+
+        -->
+    
+        <button type="submit">Cadastrar</button>
+        <button type="reset">Limpar</button>
+
+        
+    </form>
+    
+</body>
+</html>
