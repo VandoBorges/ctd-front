@@ -1,0 +1,65 @@
+button {
+    border: none;
+    padding: 12px 24px;
+    background-color: tomato;
+    color: white;
+}
+
+button:hover {
+    background-color: blue;
+    transition: 1s;
+}
+
+p::first-letter{
+    color:blue;
+    font-size: 50px;
+    font-style: italic;
+}
+
+input {
+    background-color:greenyellow;
+    border: none;
+    font-weight: bold;
+}
+
+input:focus {
+    color: blue;    
+    font-weight: bold;
+}
+
+input:hover {
+    padding: 12px 24px;
+}
+
+.enabled:enabled {
+    background-color: blue;
+}
+
+input:disabled {
+    opacity: .1;
+    background-color: black;
+}
+
+input:valid {
+    color:blue; 
+}
+
+input:invalid {
+    color: red; 
+}
+
+input:checked {
+    margin: .4rem;  
+}
+
+tr {
+    display: flex;
+    flex-direction: column;
+}
+
+td:nth-child(2n) {
+
+    color: red;
+    background-color: palegoldenrod;
+}
+
