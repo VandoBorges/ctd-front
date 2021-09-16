@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes shake {
+    50% {
+        transform: translate(-20px);
+    }
+
+    100% {
+        transform: translate(20px, 50px);
+    }
+}
+
+@keyframes bola {
+    0% {
+        transform: translate(-20px, 100px);
+    }
+    
+    50% {
+        opacity: 0;
+        font-size: 50px;
+    }
+
+    100% {
+        opacity: 1;
+        font-size: 72px;
+    }
+}
+
+span {
+    animation-name: float;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+div {
+
+    text-align: center;
+    font-size: 72px;
+    animation-name: bola;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: bottom left;
+}
+
+
+button {
+    border: none;
+    padding: 12px 32px;
+    transition: .5s ease-in-out;
+    margin: 100px auto;
+    display: block;
+    /*
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+    transition-property: background-color;
+    Pode ser substituídos por transition
+    transition-delay: .5s;
+    */
+    animation-name: shake;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+button:hover {
+    color: white;
+    background-color: blue;
+    transform:  scale(1.2) 
+                skew(20deg) 
+                rotate(360deg)
+                translate(20px, -20px);
+    transform-origin: bottom right;  
+}
